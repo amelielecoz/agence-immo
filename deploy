@@ -1,0 +1,1 @@
+rsync -av ./ kngy1949@amelielecoz.com:~/public_html/agence-immo --include=public/build --include=public/.htaccess --include=vendor --exclude-from=.gitignore --exclude=".*"
